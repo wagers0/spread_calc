@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Spread Calculator</h1>
+        <label for="br">Bill Rate (br):</label>
+        <input type="number" id="br" placeholder="Enter bill rate">
+        
+        <label for="pr">Pay Rate (pr):</label>
+        <input type="number" id="pr" placeholder="Enter pay rate">
+        
+        <label for="b">Burden (b):</label>
+        <input type="number" id="b" placeholder="Enter burden">
+        
+        <button onclick="calculate()">Calculate</button>
+        
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
